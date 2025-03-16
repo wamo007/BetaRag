@@ -39,7 +39,7 @@ This is a Retrieval-Augmented Generation (RAG) chatbot implementation using Groq
    ```
 
 2. Install and run ChromaDB, directing it to db folder:
-   ```
+   ```bash
    pip install chromadb
    chroma run --path db
    ```
