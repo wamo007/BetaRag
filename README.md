@@ -36,10 +36,13 @@ This is a Retrieval-Augmented Generation (RAG) chatbot implementation using Groq
    ```bash
    python -m venv venv
    .\venv\Scripts\activate
+   ```
 
 2. Install and run ChromaDB, directing it to db folder:
+   ```
    pip install chromadb
    chroma run --path db
+   ```
 
 ## Running the Application
 
